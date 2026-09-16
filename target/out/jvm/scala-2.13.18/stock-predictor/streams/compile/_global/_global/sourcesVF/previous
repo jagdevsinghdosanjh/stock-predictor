@@ -1,0 +1,1 @@
+["Task[Seq[interface xsbti.HashedVirtualFileRef]]",["${BASE}/src/main/scala/Main.scala","${BASE}/src/main/scala/analytics/StockAnalytics.scala","${BASE}/src/main/scala/data/CSVLoader.scala","${BASE}/src/main/scala/features/FeatureEngineering.scala","${BASE}/src/main/scala/model/LinearRegressionModel.scala","${BASE}/src/main/scala/ollama/OllamaClient.scala"]]
