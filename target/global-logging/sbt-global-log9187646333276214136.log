@@ -1,0 +1,257 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 2.0.9 (Oracle Corporation Java 24.0.1)[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 169.7701ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 177.648ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.9237ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\jagdevsinghdosanjh.RHINO\stock-predictor\project[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadUnit: mkEval took 48.3185ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\jagdevsinghdosanjh.RHINO\stock-predictor\project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.DependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.DependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.DependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 36.4735 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProjectSettings(stock-predictor-build) took 100.085ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: processProject(Project(id stock-predictor-build, base: C:\Users\jagdevsinghdosanjh.RHINO\stock-predictor\project, plugins: List(<none>))) took 177.5373ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\jagdevsinghdosanjh.RHINO\stock-predictor\project, returning: (stock-predictor-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 749.0388ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 0.9179ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/C:/Users/jagdevsinghdosanjh.RHINO/stock-predictor/project/, ...) took 947.7156ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 1557.0152ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 9.4629ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: buildConfigurations took 108.5883ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 34.8129ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 13.9036ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 1102.7767ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 304.5243ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 5.3919ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from C:\Users\jagdevsinghdosanjh.RHINO\stock-predictor\project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 6877.3151ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.0035ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\jagdevsinghdosanjh.RHINO\stock-predictor[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 5.7735ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\jagdevsinghdosanjh.RHINO\stock-predictor, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.DependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.DependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.DependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.9081 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProjectSettings(stock-predictor) took 1.2128ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: processProject(Project(id stock-predictor, base: C:\Users\jagdevsinghdosanjh.RHINO\stock-predictor, plugins: List(<none>))) took 6.1073ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\jagdevsinghdosanjh.RHINO\stock-predictor, returning: (stock-predictor)[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 372.2978ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 12.6853ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/C:/Users/jagdevsinghdosanjh.RHINO/stock-predictor/, ...) took 7267.7494ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 7362.1938ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 0.4962ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: buildConfigurations took 28.5657ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 7.6831ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 0.3685ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 234.7486ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 32.9179ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 0.0025ms[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to stock-predictor (in build file:/C:/Users/jagdevsinghdosanjh.RHINO/stock-predictor/)[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(notifyUsersAboutShell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(iflast shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt server started at local:sbt-server-5b33da7d88318f76ebd2[0m
+[0m[[0m[0mdebug[0m] [0m[0mWriting bsp connection file[0m
+[0m[[0m[0mdebug[0m] [0m[0mstarted sbt server[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 848dc757-b816-48d8-a4b0-492c72ff60c0, sbt/terminalPropertiesQuery, ""})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 22260467-1928-421a-ac3f-22a7d16021fd, sbt/terminalCapabilities, {"numeric":"max_colors"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 3d542d61-17ba-4b97-8de0-1ac4df1a31ea, sbt/terminalCapabilities, {"string":"key_a1"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 3eb732c7-ada0-4ab1-846c-8d81d7e05555, sbt/terminalCapabilities, {"string":"key_a3"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, ec5f284f-7fa2-4e9c-a7ef-64bbbeecb7e7, sbt/terminalCapabilities, {"string":"key_b2"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 942a1f02-5c7f-417c-8456-13baa388a6c8, sbt/terminalCapabilities, {"string":"key_backspace"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 909af218-af8d-4851-8fee-ffef5df2c8ea, sbt/terminalCapabilities, {"string":"key_beg"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, a61070cb-a4e3-4357-b8f0-ea835eb696b9, sbt/terminalCapabilities, {"string":"key_btab"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 6751a15b-e769-4c3e-85dd-9f0ea44c02f5, sbt/terminalCapabilities, {"string":"key_c1"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 52bf7782-e163-4830-bae2-5477d564c7ff, sbt/terminalCapabilities, {"string":"key_c3"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 21c1ffd6-21ea-4468-9f75-f3ad10158025, sbt/terminalCapabilities, {"string":"key_cancel"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, b8789f69-245f-424d-97e3-6f6ba92db82c, sbt/terminalCapabilities, {"string":"key_catab"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 90903c1c-ec4b-4877-a6a4-08456f523410, sbt/terminalCapabilities, {"string":"key_clear"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 028a56e9-1fa4-4a11-90be-99d869200536, sbt/terminalCapabilities, {"string":"key_close"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 2a5d5780-9eab-4d1e-89e0-d066e277ef87, sbt/terminalCapabilities, {"string":"key_command"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, aa0ae78f-ab4c-45ec-bb94-9f017aad75c1, sbt/terminalCapabilities, {"string":"key_copy"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 0787e3ee-a93d-4d71-a768-abe547e77252, sbt/terminalCapabilities, {"string":"key_create"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 2fd0424d-1b45-4f27-b297-5ac41b6a9fa3, sbt/terminalCapabilities, {"string":"key_ctab"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, b64c2e4f-7463-452a-b835-3cc839eaa2a7, sbt/terminalCapabilities, {"string":"key_dc"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, d1f434bb-f035-4a83-9210-96da9aa7f872, sbt/terminalCapabilities, {"string":"key_dl"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, ffb54d57-4aa9-453f-9b1f-5ea2a7eaec5b, sbt/terminalCapabilities, {"string":"key_down"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, b443c975-f8d7-4b48-90e4-ff0e60b5ed77, sbt/terminalCapabilities, {"string":"key_eic"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 2015eb64-c9ff-4232-a079-c2af58c5ed9c, sbt/terminalCapabilities, {"string":"key_end"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 85e16435-fc32-4bf6-961e-0014c0a3a071, sbt/terminalCapabilities, {"string":"key_enter"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 0e365d7f-7ac1-4d63-a323-4bf127775bcd, sbt/terminalCapabilities, {"string":"key_eol"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 81d87de6-61b6-4c11-a326-f3c57a83dbd4, sbt/terminalCapabilities, {"string":"key_eos"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 989638d8-02ee-4620-9a83-df3b7f6d2b5b, sbt/terminalCapabilities, {"string":"key_exit"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 7fbc33de-8cc4-4339-9899-e191f8b99470, sbt/terminalCapabilities, {"string":"key_f0"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 4c03e7f6-9c3c-4eee-90ff-ed00b04c3a16, sbt/terminalCapabilities, {"string":"key_f1"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 728e6545-0156-4c08-91fd-5f7c6d20676d, sbt/terminalCapabilities, {"string":"key_f10"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, fe3477e9-2280-4b05-bdc6-b915042c8b83, sbt/terminalCapabilities, {"string":"key_f11"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 9058a692-baa0-4c8d-a51c-a2838c7392fa, sbt/terminalCapabilities, {"string":"key_f12"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 2fea12e7-6b07-4a33-8da2-0a54205c70d0, sbt/terminalCapabilities, {"string":"key_f13"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 713c67f7-ddf6-404c-a26a-96d4cd701e18, sbt/terminalCapabilities, {"string":"key_f14"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, d36f31c1-0fdb-4aa9-990d-6c854892829d, sbt/terminalCapabilities, {"string":"key_f15"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, d98efe18-c97a-491f-9c51-a71146d2f800, sbt/terminalCapabilities, {"string":"key_f16"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 01b52efd-2ea3-4828-ac39-69e857eedf13, sbt/terminalCapabilities, {"string":"key_f17"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, b4a95d82-b245-4917-a41d-bd1cbf4abed2, sbt/terminalCapabilities, {"string":"key_f18"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, c2003a42-e491-478b-9d49-14850abaafa2, sbt/terminalCapabilities, {"string":"key_f19"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, a66589e9-eddf-4938-a729-8659d15b11cf, sbt/terminalCapabilities, {"string":"key_f2"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 9509d7ef-9e5b-43d1-afca-341563e1f6d8, sbt/terminalCapabilities, {"string":"key_f20"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, ce177ba1-d035-46eb-a039-4a370f0f0962, sbt/terminalCapabilities, {"string":"key_f21"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, d8996f94-b831-41f6-b01a-8a982d220837, sbt/terminalCapabilities, {"string":"key_f22"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 848adeaa-da4b-49d5-a2e7-c0bf664eac0a, sbt/terminalCapabilities, {"string":"key_f23"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 84f8ffbd-05a3-4663-9f1a-c315598b48b7, sbt/terminalCapabilities, {"string":"key_f24"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, bf8aacb1-1d40-4638-9eec-3aadf9489d1b, sbt/terminalCapabilities, {"string":"key_f25"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, bcefa9cc-38e5-4219-b01a-200a05937f19, sbt/terminalCapabilities, {"string":"key_f26"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 5059c2b1-427e-4e78-a02b-cdd537328dcc, sbt/terminalCapabilities, {"string":"key_f27"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, c98b5f04-17d8-429d-a3ec-7641ffa32270, sbt/terminalCapabilities, {"string":"key_f28"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 639b418b-4340-4f79-851f-dc09c80a546c, sbt/terminalCapabilities, {"string":"key_f29"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 3589e4d1-0596-478a-a08b-08c3c3b8aaa7, sbt/terminalCapabilities, {"string":"key_f3"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 5f98e991-94ac-4728-bb4f-8e0ea2cdb5a2, sbt/terminalCapabilities, {"string":"key_f30"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 1aa7fb66-06fe-4243-bd72-996ec3b44445, sbt/terminalCapabilities, {"string":"key_f31"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, e41b10fc-266c-46d8-9036-999ef229be21, sbt/terminalCapabilities, {"string":"key_f32"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 153338f5-02ea-4c99-9959-8da97262023e, sbt/terminalCapabilities, {"string":"key_f33"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, e95ff077-5849-456b-bb02-e7779350575f, sbt/terminalCapabilities, {"string":"key_f34"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 601a4f48-e3c1-4380-8fc5-f126fc2bcfe8, sbt/terminalCapabilities, {"string":"key_f35"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 64127713-ac0d-46df-a086-9ccd15e40f29, sbt/terminalCapabilities, {"string":"key_f36"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, be7124f6-0b5f-437e-a526-0fadcf72277a, sbt/terminalCapabilities, {"string":"key_f37"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, a8b0bdb1-780f-461b-8d16-cf8e5c037817, sbt/terminalCapabilities, {"string":"key_f38"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 131ae6f3-ab0a-4426-8ba9-e2d9e50981f9, sbt/terminalCapabilities, {"string":"key_f39"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, b96fed20-36d3-484d-ae55-9d42cf7879cc, sbt/terminalCapabilities, {"string":"key_f4"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 3c795a45-fd2f-4ac0-8011-5dccc7ff6943, sbt/terminalCapabilities, {"string":"key_f40"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 021197ea-0354-475c-a078-450c0a074900, sbt/terminalCapabilities, {"string":"key_f41"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 45f9904d-2034-4ef3-b49d-bcbcc5b2c47a, sbt/terminalCapabilities, {"string":"key_f42"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, f27fe66f-77b1-47b8-bbc9-ccf015226c70, sbt/terminalCapabilities, {"string":"key_f43"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 66e9c25b-047a-4690-9687-3cc6220f0cc5, sbt/terminalCapabilities, {"string":"key_f44"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, cc1a5b9f-faf9-4cda-8528-d58566852aa8, sbt/terminalCapabilities, {"string":"key_f45"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, e63296bf-0ac1-403b-8b87-a4d2192c45ee, sbt/terminalCapabilities, {"string":"key_f46"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 6e33b27b-374f-435c-bc9a-66edfdddd1d4, sbt/terminalCapabilities, {"string":"key_f47"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 63a53ec5-3298-4482-b3d5-b2bbf964d8f2, sbt/terminalCapabilities, {"string":"key_f48"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 3d7b6e9c-9f2d-4f12-a2e3-127e7157b6e0, sbt/terminalCapabilities, {"string":"key_f49"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, a6957dcc-d098-4395-a39e-d2888312e456, sbt/terminalCapabilities, {"string":"key_f5"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, fb0732e3-231d-43e3-8fdd-1118bd8f8a2b, sbt/terminalCapabilities, {"string":"key_f50"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, c1973a75-caae-4dc4-a34a-304dcc3f3ac6, sbt/terminalCapabilities, {"string":"key_f51"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 7065b49d-797c-440e-a129-34358afd4087, sbt/terminalCapabilities, {"string":"key_f52"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 1238896c-d71f-4121-93b0-ed144de38327, sbt/terminalCapabilities, {"string":"key_f53"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 85d4e6f4-2c1e-4480-a17c-4c4f879d3aa0, sbt/terminalCapabilities, {"string":"key_f54"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 013afd71-b36f-4b13-8f52-2527f3dd763a, sbt/terminalCapabilities, {"string":"key_f55"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 5fde0d18-b895-4b44-bda2-c4479de75571, sbt/terminalCapabilities, {"string":"key_f56"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, a83f5187-bb2e-4d1e-a727-2ccf3a1bc756, sbt/terminalCapabilities, {"string":"key_f57"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 61255545-a084-47e9-8b1c-b3912d478487, sbt/terminalCapabilities, {"string":"key_f58"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 2d4139fe-5313-447b-b2fd-72763c698637, sbt/terminalCapabilities, {"string":"key_f59"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, a65f45be-031a-4efb-9917-c8d05edb5f56, sbt/terminalCapabilities, {"string":"key_f6"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, c9472951-b9ec-4f22-8128-19dc29415213, sbt/terminalCapabilities, {"string":"key_f60"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 6adf3f51-0668-460a-91bb-f4271d15c59e, sbt/terminalCapabilities, {"string":"key_f61"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, e74b0448-070e-4ee8-acbc-385456ba85b4, sbt/terminalCapabilities, {"string":"key_f62"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, d9dcda95-3ea1-4ce1-bdb4-3226188b5544, sbt/terminalCapabilities, {"string":"key_f63"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 0e1ca8e9-ceb4-4e03-99a8-4958edf0144f, sbt/terminalCapabilities, {"string":"key_f7"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 7387843f-55b7-4625-bddf-bf0d1be11d75, sbt/terminalCapabilities, {"string":"key_f8"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, f2560dac-ddee-423b-9d68-7bed585b729d, sbt/terminalCapabilities, {"string":"key_f9"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, c43643a7-3a06-494c-8034-c7c6d2814d88, sbt/terminalCapabilities, {"string":"key_find"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 13b5abd4-57af-43c6-9094-a79830d3b3a3, sbt/terminalCapabilities, {"string":"key_help"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, d63a73c7-f65e-455e-8b9f-6829c49f8858, sbt/terminalCapabilities, {"string":"key_home"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 121f13ae-a012-4bda-9a7d-f625d2fd95e2, sbt/terminalCapabilities, {"string":"key_ic"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, e4676fac-89b3-4e65-9ed6-750a470c3184, sbt/terminalCapabilities, {"string":"key_il"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, eb4be426-d569-4300-ab98-4a4df4fd44c2, sbt/terminalCapabilities, {"string":"key_left"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, ec6785c1-8749-461f-ac7a-c49a5f851a31, sbt/terminalCapabilities, {"string":"key_ll"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 39577ef7-1587-43e8-a8bb-77ffea0b8b4d, sbt/terminalCapabilities, {"string":"key_mark"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 9d6427cc-4bf0-493e-9a88-09f3b04475eb, sbt/terminalCapabilities, {"string":"key_message"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, da16b119-46ed-40ed-97e5-354313c2239a, sbt/terminalCapabilities, {"string":"key_move"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, b01e2905-a79e-45fa-9630-fdaeea661c63, sbt/terminalCapabilities, {"string":"key_next"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, a585d6b1-a976-48bf-9b15-8fd378d38748, sbt/terminalCapabilities, {"string":"key_npage"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, f27d0d16-d5fb-4bb1-b879-ced8c1e9e4a9, sbt/terminalCapabilities, {"string":"key_open"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, ee85afa9-d96b-4c6e-91d7-ee6b4a3a0f87, sbt/terminalCapabilities, {"string":"key_options"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, fceef7ce-92bb-4859-a97c-28b5b92fc49d, sbt/terminalCapabilities, {"string":"key_ppage"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 4c2f5658-52e3-433d-9b42-53b8ebfb81fe, sbt/terminalCapabilities, {"string":"key_previous"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 914e069c-8a07-470d-82e1-d110eb32a2ff, sbt/terminalCapabilities, {"string":"key_print"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, c095c6ad-34f5-474a-a5c3-a09fad423a5e, sbt/terminalCapabilities, {"string":"key_redo"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 7e137a1e-c7fc-4c14-aca0-a28b5bff9eb0, sbt/terminalCapabilities, {"string":"key_reference"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 7777c659-89a1-458f-94c2-a0c0dd4a00e1, sbt/terminalCapabilities, {"string":"key_refresh"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 3f2a1739-501d-4a30-a255-9eb4067c35b3, sbt/terminalCapabilities, {"string":"key_replace"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 66b823fb-b5ae-4f79-96e3-cdc2d96ad05d, sbt/terminalCapabilities, {"string":"key_restart"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, f9f1933f-d30b-40a1-9049-1c2eadf9c46b, sbt/terminalCapabilities, {"string":"key_resume"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 8ad3dd41-d414-417a-acd7-9358f3ee7002, sbt/terminalCapabilities, {"string":"key_right"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 5808a7ef-7356-450e-b5a9-07dba6095880, sbt/terminalCapabilities, {"string":"key_save"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, a04f1b0b-1448-48ec-a599-424e565578a8, sbt/terminalCapabilities, {"string":"key_sbeg"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 9d82e797-d838-4b12-821e-82dc6f23f37a, sbt/terminalCapabilities, {"string":"key_scancel"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 1d3b3ffd-97cc-44f4-b360-afa1463ce14e, sbt/terminalCapabilities, {"string":"key_scommand"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 6ef4ffa6-fca2-4b15-b09b-dc12f7eb7f67, sbt/terminalCapabilities, {"string":"key_scopy"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 62393334-88ab-4fe2-8f65-57c4f47d0617, sbt/terminalCapabilities, {"string":"key_screate"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, f1f072a2-877e-483e-95a2-6b46e916858e, sbt/terminalCapabilities, {"string":"key_sdc"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 4ccc90f6-2ae8-465d-a046-e42dc798bfe3, sbt/terminalCapabilities, {"string":"key_sdl"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 11609f96-92a2-43d8-9228-6132ff0c801b, sbt/terminalCapabilities, {"string":"key_select"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 069f7414-6e74-4192-8651-4fb18b90a9f1, sbt/terminalCapabilities, {"string":"key_send"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, bc672e0d-192a-4e2e-8c20-46ac3dc8799f, sbt/terminalCapabilities, {"string":"key_seol"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 016d0326-ef6d-40f6-849a-913d758cca28, sbt/terminalCapabilities, {"string":"key_sexit"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, e0d364e2-7664-4c0c-ab65-d05a12064ff4, sbt/terminalCapabilities, {"string":"key_sf"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 4590af74-e85f-4167-99c0-3ce389618901, sbt/terminalCapabilities, {"string":"key_sfind"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 37e8bd82-6664-4854-a673-4e9ba0b76999, sbt/terminalCapabilities, {"string":"key_shelp"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 2269f21d-524e-4ec3-8c68-c3bac6a6e3b9, sbt/terminalCapabilities, {"string":"key_shome"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, a3b0eb7a-baf6-4b10-8af7-af37966d3755, sbt/terminalCapabilities, {"string":"key_sic"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 375a9e96-7cfd-42f9-b201-7db9ba53f949, sbt/terminalCapabilities, {"string":"key_sleft"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, de53e582-8b0a-47ea-b265-0da163756628, sbt/terminalCapabilities, {"string":"key_smessage"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, bcd4d528-c66c-4159-940e-3462eda6abd9, sbt/terminalCapabilities, {"string":"key_smove"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 8b09d06d-b3fe-44a8-a058-00c19a7f4e9b, sbt/terminalCapabilities, {"string":"key_snext"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 249c6efb-7f15-4457-8d6f-ccca0d4fb0f3, sbt/terminalCapabilities, {"string":"key_soptions"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, d1006d21-8120-48a1-a1a0-7cf3de60e264, sbt/terminalCapabilities, {"string":"key_sprevious"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 4995fe44-0a5c-488a-93a7-bebd1189f5d1, sbt/terminalCapabilities, {"string":"key_sprint"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 13f55b2b-9453-468c-a35b-291a1d3a9709, sbt/terminalCapabilities, {"string":"key_sr"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 03adc27d-39af-415c-9824-e885a6b1a2b6, sbt/terminalCapabilities, {"string":"key_sredo"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 4cd32418-e7f1-4c99-86de-b93050a9d4cf, sbt/terminalCapabilities, {"string":"key_sreplace"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, c4ede7db-5d77-4b9a-9765-bb8d3a294f9b, sbt/terminalCapabilities, {"string":"key_sright"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 05239881-a18d-49f5-a045-189202b884a2, sbt/terminalCapabilities, {"string":"key_srsume"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, e51b938c-e3dd-4145-9782-a597b4a58234, sbt/terminalCapabilities, {"string":"key_ssave"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 353bce99-cdd8-411c-a1f1-ef1ea52d605e, sbt/terminalCapabilities, {"string":"key_ssuspend"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 6cde1d57-c3bb-4edb-b5a8-7be1658fb3bc, sbt/terminalCapabilities, {"string":"key_stab"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 73ca81ec-8fa4-46b5-a2a1-5bc8a21780df, sbt/terminalCapabilities, {"string":"key_sundo"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 960a3b6b-56c4-44e0-8741-5fcc9be09930, sbt/terminalCapabilities, {"string":"key_suspend"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 44b0e2ae-add5-46ce-89f7-3dd2b6e2a7de, sbt/terminalCapabilities, {"string":"key_undo"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, eac9650b-28f6-4a00-afc9-d3a99d011f3f, sbt/terminalCapabilities, {"string":"key_up"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, e63bcf17-378c-492e-aeb8-8905aa5eb0c4, sbt/terminalCapabilities, {"string":"key_mouse"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 0a280281-a5af-4900-aede-f5263596e6ac, sbt/terminalCapabilities, {"string":"back_tab"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 97eace3a-5aaa-43ca-aba0-fe54d783d241, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 82ab7af5-dce7-4ba2-85ab-98734bb919e8, sbt/terminalCapabilities, {"string":"enter_alt_charset_mode"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 520e2e3a-b17a-43f8-9ae3-e2efd966ec2e, sbt/terminalCapabilities, {"string":"exit_alt_charset_mode"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 19507fa8-7dc4-473c-93da-7ed5295e30f7, sbt/terminalCapabilities, {"string":"insert_line"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, e2d52973-c6b0-4de8-aec0-f69c8d587a84, sbt/terminalCapabilities, {"string":"delete_line"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 64cd5d18-9b1c-4c25-9cc0-1c6d0b7efaf8, sbt/terminalCapabilities, {"boolean":"auto_right_margin"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 4016f75d-ec50-457b-b648-7a1285b99431, sbt/terminalCapabilities, {"boolean":"eat_newline_glitch"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 960e2cc3-1d33-4de3-a0ce-0d5d11c994b1, sbt/terminalCapabilities, {"string":"cursor_down"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, bb58adae-0122-4b06-a5a6-9f7a5fbc27e8, sbt/terminalSetRawMode, {"toggle":true}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 9cb99554-29fa-4954-9fba-0146801273e9, sbt/getTerminalAttributes, {}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcRequest: JsonRpcRequestMessage(2.0, 562b6e81-3cd5-4ecd-a112-9482f28d8cbe, sbt/terminalCapabilities, {"string":"keypad_xmit"}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, sbt/readSystemIn, "")[0m
